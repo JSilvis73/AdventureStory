@@ -6,7 +6,7 @@ body {
 
 .wrapper {
     background-image: url("./assets/images/annie-spratt-BIn3m_DDSJE-unsplash.jpg");
-    margin: 2rem 2rem;
+    margin: 3rem 3rem;
 
     display: flex;
     flex-direction: column;
@@ -18,50 +18,57 @@ body {
 }
 
 .upper {
+    border: 5px solid antiquewhite;
+    background-color: transparent;
+
     margin: 2rem 2rem;
+    padding: auto;
+    width: 50%;
 
     display: flex;
     justify-content: center;
-    border: 5px solid antiquewhite;
-    background-color: transparent;
-    height: 25vh;
-    width: 500px;
-    padding: auto;
+
 }
 
 .middle {
+  
+    border: 5px solid antiquewhite;
+    background-color: transparent;
+
     margin: 2rem 2rem;
+    width: 25%;
 
     display: flex;
     justify-content: center;
-    border: 5px solid antiquewhite;
-    background-color: transparent;
-    width: 500px;
+
+    
 }
 
 .lower {
+    border: 5px solid antiquewhite;
+    background-color: transparent;
+
     margin: 2rem 2rem;
+    width: 50%;
 
     display: flex;
     justify-content: center;
-    border: 5px solid antiquewhite;
-    background-color: transparent;
-    height: 25vh;
-    width: 500px;
+
+
 }
 
 .upper-inside {
     margin: 2rem 2rem;
+    padding: auto;
+    width: 50%;
 
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    width: 450px;
-    padding: auto;
+    
 }
 
 .image {
-    height: 25vh;
-    width: 450px;
+    width: 100%;
 }
