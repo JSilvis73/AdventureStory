@@ -1,8 +1,11 @@
+var wrkText = "hello";
+var wrkImg = "./assets/images/neil-rosenstech-KG-9TUrAFsg-unsplash.jpg";
 
-var guestName = prompt("What is your name?");
-var upperInnerContent = "Hello, " + guestName;
+
+var upperInnerContent = wrkText;
+var middleInnerContent = wrkImg;
 
 
 $(".upper-inside").text(upperInnerContent);
-$(".middle-inside").text("This will be an image later");
+$(".image").attr("src",wrkImg);
 $(".lower-inside").text("Lower")

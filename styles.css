@@ -21,6 +21,7 @@ body {
     background-color: antiquewhite;
     height: 30vh;
     width: 500px;
+    padding: auto;
 }
 
 .middle {
@@ -39,4 +40,19 @@ body {
     background-color: antiquewhite;
     height: 30vh;
     width: 500px;
+}
+
+.upper-inside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 25vh;
+    width: 450px;
+    padding: auto;
+}
+
+.image {
+    height: 25vh;
+    width: 450px;
 }
