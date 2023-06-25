@@ -9,9 +9,24 @@ body {
     height: 99vh;
     justify-content: center;
     align-items: center;
+    gap: 5%;
 }
-.inner {
+
+.upper {
+    border: 5px solid antiquewhite;
     background-color: antiquewhite;
-    height: 20vh;
-    width: 400px;
+    height: 30vh;
+    width: 500px;
+}
+
+.middle {
+    border: 5px solid antiquewhite;
+    height: 30vh;
+    width: 500px;
+}
+
+.lower {
+    border: 5px solid antiquewhite;
+    height: 30vh;
+    width: 500px;
 }
