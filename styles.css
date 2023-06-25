@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 99vh;
+    justify-content: center;
+    align-items: center;
+}
+.inner {
+    background-color: antiquewhite;
+    height: 20vh;
+    width: 400px;
+}
